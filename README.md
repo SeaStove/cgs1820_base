@@ -1,2 +1,2 @@
 # cgs1820_base
-Base directories for cgs1820
+This is the repo that will updated with the week's lab directories / files, and previous lab solutions.
