@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Tag Lab</title>
+  </head>
+  <body>
+    <h1>Let's Add Some Images!</h1>
+
+    <h2>Part 2: Adding an External Image</h2>
+    <p>Here is an external image from the web:</p>
+    <img src="https://tinyurl.com/5x72emrh" alt="Taco Bell Chihuahua" />
+
+    <h2>Part 3: Adding a Local Image</h2>
+    <p>Here is a local image (Taco Bell logo) from the project directory:</p>
+    <img
+      src="images/taco-bell-logo.png"
+      alt="Taco Bell logo"
+      width="200"
+      height="200"
+    />
+
+    <h2>Part 4: Adding Image Attributes</h2>
+    <p>
+      The external image from the web resized with <code>width</code> and
+      <code>height</code> attributes:
+    </p>
+    <img
+      src="https://tinyurl.com/5x72emrh"
+      alt="Taco Bell Chihuahua"
+      width="200"
+      height="200"
+    />
+
+    <h2>Part 5: Making Responsive Images</h2>
+    <p>The local image resized responsively:</p>
+    <img
+      src="images/taco-bell-logo.png"
+      alt="Taco Bell logo"
+      style="max-width: 100%; height: auto"
+    />
+
+    <h2>Part 6: Floating an Image</h2>
+    <p>Here is a floating image with text wrapping around it:</p>
+    <img
+      src="images/taco-bell-logo.png"
+      alt="Taco Bell logo"
+      style="float: left; margin-right: 10px"
+      width="150"
+      height="150"
+    />
+    <p>
+      Taco Bell is an American-based chain of fast food restaurants. Let's see
+      how this text wraps around the image. The company was founded by Glen Bell
+      in 1962, and its menu specializes in Mexican-inspired foods such as tacos,
+      burritos, quesadillas, nachos, and more. Today, Taco Bell is a globally
+      recognized brand, serving millions of customers each year with over 7,000
+      restaurants worldwide.
+    </p>
+
+    <div style="clear: both"></div>
+    <!-- Clear float -->
+  </body>
+</html>
