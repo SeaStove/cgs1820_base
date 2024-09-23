@@ -1,0 +1,29 @@
+/* Part 2: Type Selectors */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+h1 {
+  color: navy; /* Navy text for headings */
+}
+
+p {
+  color: #2f4f4f; /* Dark slate gray text for paragraphs */
+}
+
+/* Part 3: Class Selectors */
+.highlight {
+  background-color: yellow; /* Yellow background for highlighted paragraphs */
+  font-weight: bold; /* Bold text */
+}
+
+/* Part 4: ID Selectors */
+#main-heading {
+  text-align: center; /* Center the heading */
+  border-bottom: 2px solid navy; /* Navy border below heading */
+}
+
+/* Part 5: Combinator Selectors */
+.info-box p {
+  background-color: lightblue; /* Light blue background for paragraphs inside .info-box */
+}

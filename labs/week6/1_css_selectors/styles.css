@@ -1,0 +1,29 @@
+/* Part 2: Type Selectors */
+body {
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: navy;
+}
+
+p {
+  color: #2f4f4f;
+}
+
+/* Part 3: Class Selectors */
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+/* Part 4: ID Selectors */
+#main-heading {
+  text-align: center;
+  border-bottom: 2px solid navy;
+}
+
+/* Part 5: Combinator Selectors */
+.info-box p {
+  background-color: lightblue;
+}
