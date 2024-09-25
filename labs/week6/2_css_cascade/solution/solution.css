@@ -1,0 +1,40 @@
+/* Descendant selector: targets all <p> inside sections */
+.container section p {
+  color: darkblue;
+}
+
+/* Child selector: targets direct child <h2> of <section> */
+.container > section > h2 {
+  color: green;
+}
+
+/* Adjacent sibling selector: targets <p> directly after <h2> */
+h2 + p {
+  font-weight: bold;
+}
+
+/* General sibling selector: targets <ul> after <h2> */
+h2 ~ ul {
+  background-color: lightgray;
+}
+
+/* Base font-family applied to body (inherited by most elements) */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Overriding font-family for footer */
+footer {
+  font-family: "Times New Roman", serif;
+  font-size: 14px;
+}
+
+/* General h2 styling */
+h2 {
+  color: red;
+}
+
+/* Specific selector for h2 inside section, overrides the general h2 */
+.container > section > h2 {
+  color: orange;
+}
