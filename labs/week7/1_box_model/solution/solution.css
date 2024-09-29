@@ -1,0 +1,8 @@
+/* Box styling with box model properties */
+.box {
+  width: 300px; /* Total width is controlled */
+  padding: 10px 40px; /* Padding inside the box */
+  border: 5px dashed #ff5733; /* Dashed border around the content */
+  margin: 50px 10px 20px 30px; /* Different margins on each side */
+  box-sizing: border-box; /* Ensures padding and border are included in width */
+}
