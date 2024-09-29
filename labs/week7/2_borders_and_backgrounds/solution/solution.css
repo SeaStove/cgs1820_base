@@ -1,0 +1,28 @@
+/* Border Box Styling */
+.border-box {
+  border: 3px solid #374a67;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* Background Color Box Styling */
+.bg-color-box {
+  background-color: lightblue;
+  padding: 15px;
+  border: 2px dashed navy;
+}
+
+/* Background Image for the Body */
+body {
+  background-image: url("https://via.placeholder.com/150");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Combination Box Styling */
+.combo-box {
+  background-color: lightgreen;
+  border: 4px double darkgreen;
+  padding: 20px;
+  margin: 30px;
+}
