@@ -1,0 +1,65 @@
+/* Part 1: Overflow examples */
+.overflow-box {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #000;
+  padding: 10px;
+  overflow: auto; /* Add scrollbars only if needed */
+}
+
+.overflow-x-box {
+  height: 100px;
+  border: 1px solid #000;
+  padding: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 300px;
+}
+
+.overflow-y-box {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #000;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* Part 3: CSS Units examples */
+.unit-box {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e0e0e0;
+  text-align: center;
+}
+
+/* Box with px */
+.px-box {
+  width: 300px;
+}
+
+/* Adjusted parent font size for em demonstration */
+.font-adjusted-parent {
+  font-size: 32px;
+}
+
+/* Box with em */
+.em-box {
+  width: 20em;
+}
+
+/* Box with rem */
+.rem-box {
+  width: 20rem;
+}
+
+/* Box with vw */
+.vw-box {
+  width: 20vw;
+}
+
+/* Box with vh */
+.vh-box {
+  height: 20vh;
+}

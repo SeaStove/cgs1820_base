@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 1: CSS Overflow and Units Solution</title>
+    <link href="solution.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h2>Part 1: Overflow Demonstration</h2>
+
+    <!-- General Overflow Example -->
+    <div class="overflow-box">
+      <p>
+        This is an example of general overflow. The content inside this box will
+        overflow when it exceeds the box dimensions. Add enough text here to
+        demonstrate how overflow behaves with long content. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in
+        faucibus orci luctus et ultrices posuere cubilia curae; Proin viverra
+        nulla euismod, condimentum elit ut, sodales sem. Vestibulum malesuada
+        eleifend diam.
+      </p>
+    </div>
+
+    <!-- Overflow-X Example -->
+    <div class="overflow-x-box">
+      <p>
+        This is a long line of text that will demonstrate horizontal scrolling
+        when the content exceeds the box's width. Keep adding text until you see
+        a scroll bar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+
+    <!-- Overflow-Y Example -->
+    <div class="overflow-y-box">
+      <p>
+        This is a paragraph that will demonstrate vertical scrolling. Add more
+        text inside this paragraph. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Pellentesque habitant morbi tristique senectus et netus
+        et malesuada fames ac turpis egestas. Nulla facilisi. Nam id viverra
+        elit. Proin ornare bibendum ultricies.
+      </p>
+    </div>
+
+    <h2>Part 2: CSS Units Example</h2>
+
+    <!-- Box with px -->
+    <div class="unit-box px-box">Box with px (300px)</div>
+
+    <!-- Box with em (adjusted parent font size) -->
+    <div class="font-adjusted-parent">
+      <div class="unit-box em-box">Box with em (20em)</div>
+    </div>
+
+    <!-- Box with rem -->
+    <div class="font-adjusted-parent">
+      <div class="unit-box rem-box">Box with rem (20rem)</div>
+    </div>
+
+    <!-- Box with vw -->
+    <div class="unit-box vw-box">Box with vw (20vw)</div>
+
+    <!-- Box with vh -->
+    <div class="unit-box vh-box">Box with vh (20vh)</div>
+  </body>
+</html>
