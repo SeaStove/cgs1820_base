@@ -1,0 +1,28 @@
+div {
+  background-color: #d3e5ff;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+span {
+  background-color: #ffd3d3;
+  padding: 5px;
+  margin: 5px;
+}
+
+.block-element {
+  display: block;
+  background-color: #e0ffdc;
+}
+
+.inline-element {
+  display: inline;
+  background-color: #fff4d3;
+}
+
+.inline-block-element {
+  display: inline-block;
+  background-color: #e4d3ff;
+  padding: 10px;
+  width: 200px;
+}
