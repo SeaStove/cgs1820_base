@@ -1,0 +1,19 @@
+#predefined-colors-demo {
+  color: aquamarine;
+}
+
+#rgb-demo {
+  color: rgb(127, 255, 212);
+}
+
+#rgba-demo {
+  color: rgb(127, 255, 212, 0.6);
+}
+
+#hsl-demo {
+  color: hsl(160, 100%, 75%);
+}
+
+body {
+  background-color: slategray;
+}
